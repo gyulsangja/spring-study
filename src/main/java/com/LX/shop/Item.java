@@ -4,6 +4,7 @@ package com.LX.shop;
 import jakarta.persistence.*;
 
 @Entity
+
 public class Item {
     @Id @GeneratedValue(strategy = GenerationType.IDENTITY)
     public Integer id;

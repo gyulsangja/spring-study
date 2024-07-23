@@ -3,13 +3,10 @@ package com.LX.shop;
 import jakarta.persistence.*;
 
 @Entity
-public class Board{
+public class Board {
     @Id
-    @GeneratedValue(strategy =  GenerationType.IDENTITY)
-    public Integer id;
-
-    @Column(nullable = false)
-    public String title;
-    public String date;
-
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+    private String title;
+    private String date;
 }
